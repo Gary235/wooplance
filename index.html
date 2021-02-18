@@ -3,68 +3,74 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Busca freelancers para llevar acabo tu proyecto con Wooplance">
+    <meta name="keywords" content="freelancers, proyecto, wooplance">
+    <meta name="author" content="Wooplance">
+    <title>Wooplance -- freelancers para tu proyecto</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="Estilos.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <title>Wooplance</title>
   </head>
+
   <body>
-    <div class="container-fluid principal">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <img class="Logo" src= "recursos/imagenes/logo.svg" href="index.html" alt="Logo"></img>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inciar Sesion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Registrarse</a>
-                        </li>
-                    </ul>
+
+    <div>
+        <div id="fondo_color"></div>
+        <div id="fondo_negro"></div>
+   
+    </div>
+
+    <header>
+        <nav class="nav">
+            <a id="logo"><img src="recursos/imagenes/logo.svg" alt="logo wooplance"> </a>
+            
+            <div class="grupo_buscar">
+                <div class="grupo_categorias">
+                    <button id="btn_categorias" class="item_cat">Categorias</button>
+                    <button id="flecha_categorias" class="item_cat">
+                        <img  src="recursos/iconos/ic_flecha abajo.svg" alt="">
+                    </button>
                 </div>
+                <input id="input_buscar" type="text" placeholder="EJ: 'Web Developer' ">
+                <button id="btn_buscar">Buscar</button>
             </div>
-       </nav>
-       <div class="wrapper">
+
+            <div class="grupo_entrar">
+                <button id="btn_iniciarsesion">Iniciar Sesión</button>
+                <button id="btn_registrarse">Registrarse</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    
+    <div class="container-fluid principal">
+       <div class="wrapper" style="margin-top: 70px;">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6 ">
-                        <h1 class="Titulo">Encontrá freelancers para tu proyecto</h1>
+                    <div class="col-6">
+                        <h1 class="Titulo">Encontrá freelancers para tu <b>proyecto</b></h1>
                         <p class="Subtitulo">En Wooplance te facilitamos la conexión entre vos y tu tu futuro socio</p>
                         <div class="Sugerencias">
-                                <p style="font-family: Poppins; font-weight: 600; color:white; margin-top: 20px;" >Sugerencias: </p>
+                                <p> Sugerencias: </p>
                                 <ul>
-                                    <li style="margin-right: 5px;"type="button" class="BotonSug">developer</li>
-                                    <li style="margin-right: 5px;"type="button" class="BotonSug">developer</li>
-                                    <li style="margin-right: 5px;"type="button" class="BotonSug">developer</li>
+                                    <li type="button" class="BotonSug" >Web Developer</li>
+                                    <li type="button" class="BotonSug">Ux designer</li>
+                                    <li type="button" class="BotonSug">Google Ads</li>
                                 </ul>
                         </div>
                     </div>
                     <div class="col-6">
-                        <img src="recursos/imagenes/persona 2.png" alt="foto" class="ImagenPersona"></img>
+                        <img src="recursos/imagenes/persona 4.png" alt="foto" class="ImagenPersona"></img>
                     </div>
                 </div> 
             </div> 
         </div>
     </div>
-    <div class="wrapper fondo">
-        <div class="container-fluid"  >
+    <div class="wrapper fondo" style="margin-top: 225px;"> 
+        <div class="container-fluid">
             <h2 class="TitulosSecciones">Categorias Populares</h2>
             
             <section class="card-list">
@@ -108,30 +114,18 @@
                         <p class="Textocard">Encuentra a especialistas en desarrollo web! Con ellos podras optimizar, mejorar o crear tu propia pagina web!</p>
                     </div>
                 </article>
-
-                <article class="card">
-                    <div>
-                        <img src="recursos/imagenes/illustracion_desarrollo web.svg" style="width: 120px; margin-top: 30px; "></img>
-                        <h2 class="Nombrecard">Desarrollador Web</h2>
-                        <p class="Textocard">Encuentra a especialistas en desarrollo web! Con ellos podras optimizar, mejorar o crear tu propia pagina web!</p>
-                    </div>
-                </article>
-
-                <article class="card">
-                    <div>
-                        <img src="recursos/imagenes/illustracion_desarrollo web.svg" style="width: 120px; margin-top: 30px; "></img>
-                        <h2 class="Nombrecard">Desarrollador Web</h2>
-                        <p class="Textocard">Encuentra a especialistas en desarrollo web! Con ellos podras optimizar, mejorar o crear tu propia pagina web!</p>
-                    </div>
-                </article>
-             
           
            </section>
 
         </div>
     </div>
 
-    
+
+
+
+
+
+
 
   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
