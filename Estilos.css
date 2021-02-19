@@ -227,6 +227,47 @@ body{
 }
 
 
+
+.arrow{
+    width: 100px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    right: 50%;
+
+}
+.arrow span{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
+
 .wrapper{
     width: 100vw;
     height: auto;
@@ -234,7 +275,7 @@ body{
 }
 
 
-.fondo{
+.fondoCasiBlacnco{
     background-color: #F8F9F8;  
     width: 100vw;
     height: 100vh;
@@ -273,6 +314,7 @@ body{
     box-shadow: 0px 0px 10px #0000001F;
     border-radius: 20px;
     align-items: center;
+    margin-right: 10px;
 }
 .Nombrecard {
     color:#2E3658;
@@ -298,3 +340,29 @@ body{
 .card:not(:first-child) {
     margin-left: -130px;
 }
+
+.fondoBlacnco{
+    background-color: #ffffff;  
+    width: 100vw;
+    height: 100vh;
+}
+
+.comoFuncionaImg{
+    width: 300px;
+    height: 235px;
+}
+
+.descComoFunciona {
+    text-align: center;
+    color: #2E3658;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 300px;
+}
+
+.PelotaComoFunciona{
+    z-index: 100; 
+    margin-top: -17px; 
+    margin-left: 250px;
+}
+
