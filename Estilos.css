@@ -11,6 +11,7 @@ body{
     width: 100vw;
     height: 100vh;
     position: absolute;
+    top: 0;
     z-index: -10;
 }
 
@@ -19,10 +20,10 @@ body{
     width: 100vw;
     height: 100vh;
     position: absolute;
-    z-index: -9;
+    top: 0;
+    z-index: -5;
     opacity: 0.36; 
 }
-
 
 
 .nav{
@@ -30,6 +31,12 @@ body{
     flex-wrap: wrap;
     padding: 10px;
     flex-direction: row;
+    z-index: 100;
+
+    top: 0;
+    width: 100vw;
+    position: fixed;
+    background-color: transparent;
 }
 
 
