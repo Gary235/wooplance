@@ -393,8 +393,8 @@ body{
 
 .contactar{
     font-size:28px;
-    margin-top: 100px;
-    font-weight: 600;
+    margin-top: 90px;
+    font-weight: bold;
     color: #2E3658;
 }
 
@@ -405,12 +405,34 @@ body{
     letter-spacing: 0.58px; 
 }
 
+.inputContactoMail{ 
+    border-radius: 5px;
+    width: 400px;
+    height: 54px;
+    border: none;
+    background-color: #F8F9F8;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.inputContactoMSJ{
+    
+    border-radius: 5px;
+    width: 550px;
+    height: 150px;
+    border: none;
+    background-color: #F8F9F8;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 .BtnEnivar{
+    font-weight: 500;
     margin-top: 40px;
     align-items: flex-end;
     align-content: center;
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 50px;
     background-color: #5C6278;
     color:#fff;
     display:inline-block;
@@ -425,6 +447,36 @@ body{
 
 .IconEnviar{
     width: 15px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
+.nuestrasRedesTit{
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 90px;
+}
+
+.Redes{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 60px;
+    padding: 20px;
+    list-style:none;
+    margin-bottom: 10px;
+    
+}
+
+.iconosRedes{
+    margin-right: 25px;
+    width: 22px;
+}
+
+.infoContTit{
+    margin-top: 20px;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+}
