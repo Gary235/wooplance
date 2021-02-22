@@ -404,45 +404,54 @@ body{
     letter-spacing: 0.58px; 
 }
 
+
+label{
+    font-size: 12px;
+}
+
 .inputContactoMail{ 
     border-radius: 5px;
     width: 400px;
     height: 54px;
     border: none;
     background-color: #F8F9F8;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin: 0 0 20px 10px;
+    font-size: 13px;
+
+    outline: none;
 }
 
 .inputContactoMSJ{
     
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
     border-radius: 5px;
     width: 550px;
     height: 150px;
     border: none;
     background-color: #F8F9F8;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin: 0 0 0 10px;
+
+
+    max-height: 200px;
 }
 
 .BtnEnivar{
     font-weight: 500;
-    margin-top: 40px;
-    align-items: flex-end;
-    align-content: center;
+    margin: 40px 0 0 10px;
     width: 120px;
-    height: 50px;
-    background-color: #5C6278;
+    height: 45px;
+    background-color: #2E3658;
     color:#fff;
     display:inline-block;
-    right: auto;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: .2s;
     border: none;
 }
 
 .BtnEnivar:hover{
-    background-color: #a78bce ;
+    background-color: #5C6278 ;
 }
 
 .IconEnviar{
@@ -479,4 +488,32 @@ body{
     color: #FFFFFF;
     font-size: 18px;
     font-weight: 500;
+}
+
+
+
+.info{
+    color: white;
+    text-decoration: none;
+    transition:  .3s;
+}
+
+.instagram:hover{
+    color: rgb(247, 72, 130);
+}
+
+.facebook:hover{
+    color: #2E3658;
+}
+
+.linkedin:hover{
+    color: #0a66c2;
+}
+
+.whatsapp:hover{
+    color: #71f562;
+}
+
+.gmail:hover{
+    color: rgb(255, 0, 0);
 }
