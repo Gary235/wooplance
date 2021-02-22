@@ -5,7 +5,6 @@ body{
 }
 
 
-
 #fondo_color{
     background-color: #C9A2FF;
     width: 100vw;
@@ -25,7 +24,6 @@ body{
     opacity: 0.36; 
 }
 
-
 .nav{
     display: flex;
     flex-wrap: wrap;
@@ -40,7 +38,6 @@ body{
     transition: .2s;
 }
 
-
 #logo{
     margin: 20px 10px 0 50px;
     
@@ -50,12 +47,11 @@ body{
     flex-basis: 100px;
 }
 
-
 .grupo_buscar{
     margin: 13px 0 0 0;
     padding: 10px 10px 10px 10px;
 
-    flex-grow: 0.8;
+    flex-grow: 0.7;
     background-color: #fff;
     border-radius: 15px;
     display: flex;
@@ -87,7 +83,6 @@ body{
     background-color: #d8d8d8;
 }
 
- 
 #input_buscar{
     border: none;
     border-radius: 15px;
@@ -122,12 +117,12 @@ body{
     background-color: #a78bce ;
 }
 
-
 .grupo_entrar{
     margin: 23px 0 0 0;
     padding: 0 0 0 100px;
-    flex-grow: 0.9;
+    flex-grow: 1.1;
     flex-basis: 100px;
+    flex-direction: row;
 }
 
 #btn_iniciarsesion{
@@ -216,6 +211,7 @@ body{
     
 
 }
+
 .BotonSug{
     text-align:center;
     font-size:10px;
@@ -248,7 +244,6 @@ body{
     right: 0;
 }
 
-
 .FLECHA{
     position: absolute;
     top: 88%;
@@ -272,12 +267,11 @@ body{
     color: #fff;
     padding: 8px;
 }
+
 .FLECHA > img{
     justify-items: center;
     
 }
-
-
 
 @keyframes animacionExplorar{
     from{
@@ -289,13 +283,11 @@ body{
     }
 }
 
-
 .wrapper{
     width: 90vw;
     height: fit-content;
     padding: 30px 30px 30px 38px;
 }
-
 
 .fondoCasiBlacnco{
     background-color: #F8F9F8;  
@@ -303,13 +295,13 @@ body{
     height: 100vh;
 }
 
-
 .TitulosSecciones{
     margin-top: 140px;
     color:#2E3658;
     font-size:28px;
     font-weight:900;
 }
+
 .card-list {
     display: flex;
     padding: 3rem;
@@ -317,18 +309,22 @@ body{
     margin-top: 35px;
 
 }
+
 .card-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
 }
+
 .card-list::-webkit-scrollbar-thumb {
     background: #eeeeee;
     border-radius: 10px;
     
 }
+
 .card-list::-webkit-scrollbar-track {
     background: #eeeeee;
 }
+
 .card {
     
     width: 280px;
@@ -340,12 +336,14 @@ body{
     align-items: center;
     margin-right: 10px;
 }
+
 .Nombrecard {
     color:#2E3658;
     font-weight: 700;
     font-size: 15px;
     margin-top: 30px;
 }
+
 .Textocard{
     color: #2E3658;
     font-weight: normal;
@@ -355,22 +353,24 @@ body{
     width: 135px;
     margin-top: 28px;
 }
+
 .card:hover {
     transform: translateY(-1rem);
 }
+
 .card:hover~.card {
     transform: translateX(100px);
 }
+
 .card:not(:first-child) {
     margin-left: -130px;
 }
 
-.fondoBlacnco{
+.fondoBlanco{
     background-color: #ffffff;  
     width: 100vw;
-    height: 150vh;
+    height: 120vh;
 }
-
 
 .comoFuncionaImg{
     width: 250px;
@@ -389,7 +389,6 @@ body{
     margin-top: -17px; 
   
 }
-
 
 .contactar{
     font-size:28px;
@@ -441,6 +440,7 @@ body{
     transition: .2s;
     border: none;
 }
+
 .BtnEnivar:hover{
     background-color: #a78bce ;
 }
